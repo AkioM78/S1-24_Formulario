@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        WORKSHOP TECNOLOGIA DO FUTURO KENZIE ACADEMY
+    </h1>
+    <h2>
+        Dia 31 de julho às 14 horas - Centro de Convenções ACME
+    </h2>
+
+    <form>
+            <label for="nomecompleto">Nome completo</label>
+                <input type="text" placeholder="Digite seu nome aqui..." id="nomecompleto" required />
+            <label for="email"> E-mail </label>
+                <input type="email" placeholder="Digite seu melhor e-mail..."id="email" required />
+        
+        <div>
+            <label for="modulo">Qual seu módulo</label>
+                <select id="modulo" name="modulos" required>
+                    <option value="">Escolha o módulo</option>
+                    <option value="M1">M1</option>
+                    <option value="M2">M2</option>
+                    <option value="M3">M3</option>
+                    <option value="M4">M4</option>
+                    <option value="M5">M5</option>
+                    <option value="M6">M6</option>
+                </select>
+        </div>
+        
+    
+        <div>
+            <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva aqui porque deseja participar deste evento..." required="true" cols="100" rols="100">
+
+                </textarea>
+
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite sua senha" id="senha" required />
+            <label for="confirmesenha"> Confirmar Senha </label>
+            <input type="password" placeholder="Confirme sua senha"id="confirmesenha" required />
+        </div>
+
+        <div>
+            <label for="newsletter">Deseja receber nossa newsletter por email ?</label>
+            <input type="radio" value="Sim" name="newsletter" id="Newsletter"> SIM
+            <input type="radio" value="Não" name="newsletter" id="Newsletter"> NÃO
+        </div>
+        
+        <button type="submit">Enviar</button>  
+    </form>
+</body>
+</html>
